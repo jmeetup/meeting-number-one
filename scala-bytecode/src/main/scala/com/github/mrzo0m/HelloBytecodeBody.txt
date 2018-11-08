@@ -1,0 +1,102 @@
+1.8.0_181
+Classfile /C:/Users/16678596/IdeaProjects/jmeetup/scala-bytecode/target/classes/com/github/mrzo0m/Hello$delayedInit$body.class
+  Last modified 08.11.2018; size 798 bytes
+  MD5 checksum ea1be1538d47b2079019ea5a6878d44c
+  Compiled from "Hello.scala"
+public final class com.github.mrzo0m.Hello$delayedInit$body extends scala.runtime.AbstractFunction0
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+Constant pool:
+   #1 = Utf8               com/github/mrzo0m/Hello$delayedInit$body
+   #2 = Class              #1             // com/github/mrzo0m/Hello$delayedInit$body
+   #3 = Utf8               scala/runtime/AbstractFunction0
+   #4 = Class              #3             // scala/runtime/AbstractFunction0
+   #5 = Utf8               Hello.scala
+   #6 = Utf8               $outer
+   #7 = Utf8               Lcom/github/mrzo0m/Hello$;
+   #8 = Utf8               apply
+   #9 = Utf8               ()Ljava/lang/Object;
+  #10 = NameAndType        #6:#7          // $outer:Lcom/github/mrzo0m/Hello$;
+  #11 = Fieldref           #2.#10         // com/github/mrzo0m/Hello$delayedInit$body.$outer:Lcom/github/mrzo0m/Hello$;
+  #12 = Utf8               com/github/mrzo0m/Hello$
+  #13 = Class              #12            // com/github/mrzo0m/Hello$
+  #14 = Utf8               delayedEndpoint$com$github$mrzo0m$Hello$1
+  #15 = Utf8               ()V
+  #16 = NameAndType        #14:#15        // delayedEndpoint$com$github$mrzo0m$Hello$1:()V
+  #17 = Methodref          #13.#16        // com/github/mrzo0m/Hello$.delayedEndpoint$com$github$mrzo0m$Hello$1:()V
+  #18 = Utf8               scala/runtime/BoxedUnit
+  #19 = Class              #18            // scala/runtime/BoxedUnit
+  #20 = Utf8               UNIT
+  #21 = Utf8               Lscala/runtime/BoxedUnit;
+  #22 = NameAndType        #20:#21        // UNIT:Lscala/runtime/BoxedUnit;
+  #23 = Fieldref           #19.#22        // scala/runtime/BoxedUnit.UNIT:Lscala/runtime/BoxedUnit;
+  #24 = Utf8               this
+  #25 = Utf8               Lcom/github/mrzo0m/Hello$delayedInit$body;
+  #26 = Utf8               <init>
+  #27 = Utf8               (Lcom/github/mrzo0m/Hello$;)V
+  #28 = NameAndType        #26:#15        // "<init>":()V
+  #29 = Methodref          #4.#28         // scala/runtime/AbstractFunction0."<init>":()V
+  #30 = Utf8               Code
+  #31 = Utf8               LineNumberTable
+  #32 = Utf8               LocalVariableTable
+  #33 = Utf8               StackMapTable
+  #34 = Utf8               MethodParameters
+  #35 = Utf8               SourceFile
+  #36 = Utf8               ScalaInlineInfo
+  #37 = Utf8               Scala
+{
+  private final com.github.mrzo0m.Hello$ $outer;
+    descriptor: Lcom/github/mrzo0m/Hello$;
+    flags: ACC_PRIVATE, ACC_FINAL
+
+  public final java.lang.Object apply();
+    descriptor: ()Ljava/lang/Object;
+    flags: ACC_PUBLIC, ACC_FINAL
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #11                 // Field $outer:Lcom/github/mrzo0m/Hello$;
+         4: invokevirtual #17                 // Method com/github/mrzo0m/Hello$.delayedEndpoint$com$github$mrzo0m$Hello$1:()V
+         7: getstatic     #23                 // Field scala/runtime/BoxedUnit.UNIT:Lscala/runtime/BoxedUnit;
+        10: areturn
+      LineNumberTable:
+        line 2: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      11     0  this   Lcom/github/mrzo0m/Hello$delayedInit$body;
+
+  public com.github.mrzo0m.Hello$delayedInit$body(com.github.mrzo0m.Hello$);
+    descriptor: (Lcom/github/mrzo0m/Hello$;)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_1
+         1: ifnonnull     6
+         4: aconst_null
+         5: athrow
+         6: aload_0
+         7: aload_1
+         8: putfield      #11                 // Field $outer:Lcom/github/mrzo0m/Hello$;
+        11: aload_0
+        12: invokespecial #29                 // Method scala/runtime/AbstractFunction0."<init>":()V
+        15: return
+      StackMapTable: number_of_entries = 1
+        frame_type = 6 /* same */
+      LineNumberTable:
+        line 2: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      16     0  this   Lcom/github/mrzo0m/Hello$delayedInit$body;
+            0      16     1 $outer   Lcom/github/mrzo0m/Hello$;
+    MethodParameters:
+      Name                           Flags
+      $outer                         final
+}
+SourceFile: "Hello.scala"
+Error: unknown attribute
+  ScalaInlineInfo: length = 0xE
+   01 01 00 02 00 1A 00 1B 01 00 08 00 09 01
+Error: unknown attribute
+  Scala: length = 0x0
+
