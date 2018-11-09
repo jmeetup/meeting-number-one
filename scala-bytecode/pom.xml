@@ -16,6 +16,14 @@
         <scala.version>2.12.7</scala.version>
     </properties>
 
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://github.com/mrzo0m/jmeetup/blob/master/LICENSE</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
     <dependencies>
         <!-- scala-maven-plugin determines the Scala version to use from this dependency -->
         <dependency>

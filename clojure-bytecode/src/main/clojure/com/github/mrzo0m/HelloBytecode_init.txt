@@ -1,0 +1,348 @@
+1.8.0_181
+Classfile /C:/Users/16678596/IdeaProjects/jmeetup/clojure-bytecode/target/classes/com/github/mrzo0m/hello__init.class
+  Last modified 09.11.2018; size 2548 bytes
+  MD5 checksum 0b6e45a9f5563ee2408ca25c2cfcaf8f
+public class com.github.mrzo0m.hello__init
+  minor version: 0
+  major version: 49
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+    #1 = Utf8               com/github/mrzo0m/hello__init
+    #2 = Class              #1            // com/github/mrzo0m/hello__init
+    #3 = Utf8               java/lang/Object
+    #4 = Class              #3            // java/lang/Object
+    #5 = Utf8               load
+    #6 = Utf8               ()V
+    #7 = Utf8               const__0
+    #8 = Utf8               Lclojure/lang/Var;
+    #9 = NameAndType        #7:#8         // const__0:Lclojure/lang/Var;
+   #10 = Fieldref           #2.#9         // com/github/mrzo0m/hello__init.const__0:Lclojure/lang/Var;
+   #11 = Utf8               clojure/lang/Var
+   #12 = Class              #11           // clojure/lang/Var
+   #13 = Utf8               getRawRoot
+   #14 = Utf8               ()Ljava/lang/Object;
+   #15 = NameAndType        #13:#14       // getRawRoot:()Ljava/lang/Object;
+   #16 = Methodref          #12.#15       // clojure/lang/Var.getRawRoot:()Ljava/lang/Object;
+   #17 = Utf8               clojure/lang/IFn
+   #18 = Class              #17           // clojure/lang/IFn
+   #19 = Utf8               const__1
+   #20 = Utf8               Lclojure/lang/AFn;
+   #21 = NameAndType        #19:#20       // const__1:Lclojure/lang/AFn;
+   #22 = Fieldref           #2.#21        // com/github/mrzo0m/hello__init.const__1:Lclojure/lang/AFn;
+   #23 = Utf8               invoke
+   #24 = Utf8               (Ljava/lang/Object;)Ljava/lang/Object;
+   #25 = NameAndType        #23:#24       // invoke:(Ljava/lang/Object;)Ljava/lang/Object;
+   #26 = InterfaceMethodref #18.#25       // clojure/lang/IFn.invoke:(Ljava/lang/Object;)Ljava/lang/Object;
+   #27 = Utf8               com/github/mrzo0m/hello$loading__6434__auto____279
+   #28 = Class              #27           // com/github/mrzo0m/hello$loading__6434__auto____279
+   #29 = Utf8               <init>
+   #30 = NameAndType        #29:#6        // "<init>":()V
+   #31 = Methodref          #28.#30       // com/github/mrzo0m/hello$loading__6434__auto____279."<init>":()V
+   #32 = NameAndType        #23:#14       // invoke:()Ljava/lang/Object;
+   #33 = InterfaceMethodref #18.#32       // clojure/lang/IFn.invoke:()Ljava/lang/Object;
+   #34 = Utf8               clojure/lang/Symbol
+   #35 = Class              #34           // clojure/lang/Symbol
+   #36 = Utf8               const__2
+   #37 = NameAndType        #36:#20       // const__2:Lclojure/lang/AFn;
+   #38 = Fieldref           #2.#37        // com/github/mrzo0m/hello__init.const__2:Lclojure/lang/AFn;
+   #39 = Utf8               equals
+   #40 = Utf8               (Ljava/lang/Object;)Z
+   #41 = NameAndType        #39:#40       // equals:(Ljava/lang/Object;)Z
+   #42 = Methodref          #35.#41       // clojure/lang/Symbol.equals:(Ljava/lang/Object;)Z
+   #43 = Utf8               com/github/mrzo0m/hello$fn__281
+   #44 = Class              #43           // com/github/mrzo0m/hello$fn__281
+   #45 = Methodref          #44.#30       // com/github/mrzo0m/hello$fn__281."<init>":()V
+   #46 = Utf8               java/util/concurrent/Callable
+   #47 = Class              #46           // java/util/concurrent/Callable
+   #48 = Utf8               clojure/lang/LockingTransaction
+   #49 = Class              #48           // clojure/lang/LockingTransaction
+   #50 = Utf8               runInTransaction
+   #51 = Utf8               (Ljava/util/concurrent/Callable;)Ljava/lang/Object;
+   #52 = NameAndType        #50:#51       // runInTransaction:(Ljava/util/concurrent/Callable;)Ljava/lang/Object;
+   #53 = Methodref          #49.#52       // clojure/lang/LockingTransaction.runInTransaction:(Ljava/util/concurrent/Callable;)Ljava/lang/Object;
+   #54 = Utf8               const__3
+   #55 = NameAndType        #54:#8        // const__3:Lclojure/lang/Var;
+   #56 = Fieldref           #2.#55        // com/github/mrzo0m/hello__init.const__3:Lclojure/lang/Var;
+   #57 = Utf8               const__11
+   #58 = NameAndType        #57:#20       // const__11:Lclojure/lang/AFn;
+   #59 = Fieldref           #2.#58        // com/github/mrzo0m/hello__init.const__11:Lclojure/lang/AFn;
+   #60 = Utf8               clojure/lang/IPersistentMap
+   #61 = Class              #60           // clojure/lang/IPersistentMap
+   #62 = Utf8               setMeta
+   #63 = Utf8               (Lclojure/lang/IPersistentMap;)V
+   #64 = NameAndType        #62:#63       // setMeta:(Lclojure/lang/IPersistentMap;)V
+   #65 = Methodref          #12.#64       // clojure/lang/Var.setMeta:(Lclojure/lang/IPersistentMap;)V
+   #66 = Utf8               com/github/mrzo0m/hello$main
+   #67 = Class              #66           // com/github/mrzo0m/hello$main
+   #68 = Methodref          #67.#30       // com/github/mrzo0m/hello$main."<init>":()V
+   #69 = Utf8               bindRoot
+   #70 = Utf8               (Ljava/lang/Object;)V
+   #71 = NameAndType        #69:#70       // bindRoot:(Ljava/lang/Object;)V
+   #72 = Methodref          #12.#71       // clojure/lang/Var.bindRoot:(Ljava/lang/Object;)V
+   #73 = Utf8               __init0
+   #74 = Utf8               clojure.core
+   #75 = String             #74           // clojure.core
+   #76 = Utf8               in-ns
+   #77 = String             #76           // in-ns
+   #78 = Utf8               clojure/lang/RT
+   #79 = Class              #78           // clojure/lang/RT
+   #80 = Utf8               var
+   #81 = Utf8               (Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Var;
+   #82 = NameAndType        #80:#81       // var:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Var;
+   #83 = Methodref          #79.#82       // clojure/lang/RT.var:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Var;
+   #84 = Utf8               com.github.mrzo0m.hello
+   #85 = String             #84           // com.github.mrzo0m.hello
+   #86 = Utf8               intern
+   #87 = Utf8               (Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Symbol;
+   #88 = NameAndType        #86:#87       // intern:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Symbol;
+   #89 = Methodref          #35.#88       // clojure/lang/Symbol.intern:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Symbol;
+   #90 = Utf8               clojure/lang/AFn
+   #91 = Class              #90           // clojure/lang/AFn
+   #92 = Utf8               main
+   #93 = String             #92           // main
+   #94 = Utf8               arglists
+   #95 = String             #94           // arglists
+   #96 = Utf8               keyword
+   #97 = Utf8               (Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Keyword;
+   #98 = NameAndType        #96:#97       // keyword:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Keyword;
+   #99 = Methodref          #79.#98       // clojure/lang/RT.keyword:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Keyword;
+  #100 = Utf8               args
+  #101 = String             #100          // args
+  #102 = Utf8               clojure/lang/Tuple
+  #103 = Class              #102          // clojure/lang/Tuple
+  #104 = Utf8               create
+  #105 = Utf8               (Ljava/lang/Object;)Lclojure/lang/IPersistentVector;
+  #106 = NameAndType        #104:#105     // create:(Ljava/lang/Object;)Lclojure/lang/IPersistentVector;
+  #107 = Methodref          #103.#106     // clojure/lang/Tuple.create:(Ljava/lang/Object;)Lclojure/lang/IPersistentVector;
+  #108 = Utf8               java/util/Arrays
+  #109 = Class              #108          // java/util/Arrays
+  #110 = Utf8               asList
+  #111 = Utf8               ([Ljava/lang/Object;)Ljava/util/List;
+  #112 = NameAndType        #110:#111     // asList:([Ljava/lang/Object;)Ljava/util/List;
+  #113 = Methodref          #109.#112     // java/util/Arrays.asList:([Ljava/lang/Object;)Ljava/util/List;
+  #114 = Utf8               clojure/lang/PersistentList
+  #115 = Class              #114          // clojure/lang/PersistentList
+  #116 = Utf8               (Ljava/util/List;)Lclojure/lang/IPersistentList;
+  #117 = NameAndType        #104:#116     // create:(Ljava/util/List;)Lclojure/lang/IPersistentList;
+  #118 = Methodref          #115.#117     // clojure/lang/PersistentList.create:(Ljava/util/List;)Lclojure/lang/IPersistentList;
+  #119 = Utf8               line
+  #120 = String             #119          // line
+  #121 = Utf8               java/lang/Integer
+  #122 = Class              #121          // java/lang/Integer
+  #123 = Utf8               valueOf
+  #124 = Utf8               (I)Ljava/lang/Integer;
+  #125 = NameAndType        #123:#124     // valueOf:(I)Ljava/lang/Integer;
+  #126 = Methodref          #122.#125     // java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+  #127 = Utf8               column
+  #128 = String             #127          // column
+  #129 = Utf8               file
+  #130 = String             #129          // file
+  #131 = Utf8               com/github/mrzo0m/hello.clj
+  #132 = String             #131          // com/github/mrzo0m/hello.clj
+  #133 = Utf8               map
+  #134 = Utf8               ([Ljava/lang/Object;)Lclojure/lang/IPersistentMap;
+  #135 = NameAndType        #133:#134     // map:([Ljava/lang/Object;)Lclojure/lang/IPersistentMap;
+  #136 = Methodref          #79.#135      // clojure/lang/RT.map:([Ljava/lang/Object;)Lclojure/lang/IPersistentMap;
+  #137 = Utf8               <clinit>
+  #138 = NameAndType        #73:#6        // __init0:()V
+  #139 = Methodref          #2.#138       // com/github/mrzo0m/hello__init.__init0:()V
+  #140 = Utf8               com.github.mrzo0m.hello__init
+  #141 = String             #140          // com.github.mrzo0m.hello__init
+  #142 = Utf8               classForName
+  #143 = Utf8               (Ljava/lang/String;)Ljava/lang/Class;
+  #144 = NameAndType        #142:#143     // classForName:(Ljava/lang/String;)Ljava/lang/Class;
+  #145 = Methodref          #79.#144      // clojure/lang/RT.classForName:(Ljava/lang/String;)Ljava/lang/Class;
+  #146 = Utf8               java/lang/Class
+  #147 = Class              #146          // java/lang/Class
+  #148 = Utf8               getClassLoader
+  #149 = Utf8               ()Ljava/lang/ClassLoader;
+  #150 = NameAndType        #148:#149     // getClassLoader:()Ljava/lang/ClassLoader;
+  #151 = Methodref          #147.#150     // java/lang/Class.getClassLoader:()Ljava/lang/ClassLoader;
+  #152 = Utf8               clojure/lang/Compiler
+  #153 = Class              #152          // clojure/lang/Compiler
+  #154 = Utf8               pushNSandLoader
+  #155 = Utf8               (Ljava/lang/ClassLoader;)V
+  #156 = NameAndType        #154:#155     // pushNSandLoader:(Ljava/lang/ClassLoader;)V
+  #157 = Methodref          #153.#156     // clojure/lang/Compiler.pushNSandLoader:(Ljava/lang/ClassLoader;)V
+  #158 = NameAndType        #5:#6         // load:()V
+  #159 = Methodref          #2.#158       // com/github/mrzo0m/hello__init.load:()V
+  #160 = Utf8               popThreadBindings
+  #161 = NameAndType        #160:#6       // popThreadBindings:()V
+  #162 = Methodref          #12.#161      // clojure/lang/Var.popThreadBindings:()V
+  #163 = Utf8               Code
+  #164 = Utf8               LineNumberTable
+{
+  public static final clojure.lang.Var const__0;
+    descriptor: Lclojure/lang/Var;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final clojure.lang.AFn const__1;
+    descriptor: Lclojure/lang/AFn;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final clojure.lang.AFn const__2;
+    descriptor: Lclojure/lang/AFn;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final clojure.lang.Var const__3;
+    descriptor: Lclojure/lang/Var;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final clojure.lang.AFn const__11;
+    descriptor: Lclojure/lang/AFn;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static void load();
+    descriptor: ()V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=7, locals=0, args_size=0
+         0: getstatic     #10                 // Field const__0:Lclojure/lang/Var;
+         3: invokevirtual #16                 // Method clojure/lang/Var.getRawRoot:()Ljava/lang/Object;
+         6: checkcast     #18                 // class clojure/lang/IFn
+         9: getstatic     #22                 // Field const__1:Lclojure/lang/AFn;
+        12: invokeinterface #26,  2           // InterfaceMethod clojure/lang/IFn.invoke:(Ljava/lang/Object;)Ljava/lang/Object;
+        17: new           #28                 // class com/github/mrzo0m/hello$loading__6434__auto____279
+        20: dup
+        21: invokespecial #31                 // Method com/github/mrzo0m/hello$loading__6434__auto____279."<init>":()V
+        24: checkcast     #18                 // class clojure/lang/IFn
+        27: invokeinterface #33,  1           // InterfaceMethod clojure/lang/IFn.invoke:()Ljava/lang/Object;
+        32: getstatic     #22                 // Field const__1:Lclojure/lang/AFn;
+        35: checkcast     #35                 // class clojure/lang/Symbol
+        38: getstatic     #38                 // Field const__2:Lclojure/lang/AFn;
+        41: invokevirtual #42                 // Method clojure/lang/Symbol.equals:(Ljava/lang/Object;)Z
+        44: ifeq          52
+        47: aconst_null
+        48: goto          67
+        51: pop
+        52: new           #44                 // class com/github/mrzo0m/hello$fn__281
+        55: dup
+        56: invokespecial #45                 // Method com/github/mrzo0m/hello$fn__281."<init>":()V
+        59: checkcast     #47                 // class java/util/concurrent/Callable
+        62: invokestatic  #53                 // Method clojure/lang/LockingTransaction.runInTransaction:(Ljava/util/concurrent/Callable;)Ljava/lang/Object;
+        65: pop
+        66: aconst_null
+        67: getstatic     #56                 // Field const__3:Lclojure/lang/Var;
+        70: dup
+        71: getstatic     #59                 // Field const__11:Lclojure/lang/AFn;
+        74: checkcast     #61                 // class clojure/lang/IPersistentMap
+        77: invokevirtual #65                 // Method clojure/lang/Var.setMeta:(Lclojure/lang/IPersistentMap;)V
+        80: dup
+        81: new           #67                 // class com/github/mrzo0m/hello$main
+        84: dup
+        85: invokespecial #68                 // Method com/github/mrzo0m/hello$main."<init>":()V
+        88: invokevirtual #72                 // Method clojure/lang/Var.bindRoot:(Ljava/lang/Object;)V
+        91: return
+      LineNumberTable:
+        line 1: 6
+        line 1: 12
+        line 1: 24
+        line 1: 27
+        line 1: 32
+        line 1: 41
+        line 1: 62
+
+  public static void __init0();
+    descriptor: ()V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=8, locals=0, args_size=0
+         0: ldc           #75                 // String clojure.core
+         2: ldc           #77                 // String in-ns
+         4: invokestatic  #83                 // Method clojure/lang/RT.var:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Var;
+         7: checkcast     #12                 // class clojure/lang/Var
+        10: putstatic     #10                 // Field const__0:Lclojure/lang/Var;
+        13: aconst_null
+        14: ldc           #85                 // String com.github.mrzo0m.hello
+        16: invokestatic  #89                 // Method clojure/lang/Symbol.intern:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Symbol;
+        19: checkcast     #91                 // class clojure/lang/AFn
+        22: putstatic     #22                 // Field const__1:Lclojure/lang/AFn;
+        25: aconst_null
+        26: ldc           #75                 // String clojure.core
+        28: invokestatic  #89                 // Method clojure/lang/Symbol.intern:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Symbol;
+        31: checkcast     #91                 // class clojure/lang/AFn
+        34: putstatic     #38                 // Field const__2:Lclojure/lang/AFn;
+        37: ldc           #85                 // String com.github.mrzo0m.hello
+        39: ldc           #93                 // String main
+        41: invokestatic  #83                 // Method clojure/lang/RT.var:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Var;
+        44: checkcast     #12                 // class clojure/lang/Var
+        47: putstatic     #56                 // Field const__3:Lclojure/lang/Var;
+        50: bipush        8
+        52: anewarray     #4                  // class java/lang/Object
+        55: dup
+        56: iconst_0
+        57: aconst_null
+        58: ldc           #95                 // String arglists
+        60: invokestatic  #99                 // Method clojure/lang/RT.keyword:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Keyword;
+        63: aastore
+        64: dup
+        65: iconst_1
+        66: iconst_1
+        67: anewarray     #4                  // class java/lang/Object
+        70: dup
+        71: iconst_0
+        72: aconst_null
+        73: ldc           #101                // String args
+        75: invokestatic  #89                 // Method clojure/lang/Symbol.intern:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Symbol;
+        78: invokestatic  #107                // Method clojure/lang/Tuple.create:(Ljava/lang/Object;)Lclojure/lang/IPersistentVector;
+        81: aastore
+        82: invokestatic  #113                // Method java/util/Arrays.asList:([Ljava/lang/Object;)Ljava/util/List;
+        85: invokestatic  #118                // Method clojure/lang/PersistentList.create:(Ljava/util/List;)Lclojure/lang/IPersistentList;
+        88: aastore
+        89: dup
+        90: iconst_2
+        91: aconst_null
+        92: ldc           #120                // String line
+        94: invokestatic  #99                 // Method clojure/lang/RT.keyword:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Keyword;
+        97: aastore
+        98: dup
+        99: iconst_3
+       100: iconst_3
+       101: invokestatic  #126                // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+       104: aastore
+       105: dup
+       106: iconst_4
+       107: aconst_null
+       108: ldc           #128                // String column
+       110: invokestatic  #99                 // Method clojure/lang/RT.keyword:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Keyword;
+       113: aastore
+       114: dup
+       115: iconst_5
+       116: iconst_1
+       117: invokestatic  #126                // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+       120: aastore
+       121: dup
+       122: bipush        6
+       124: aconst_null
+       125: ldc           #130                // String file
+       127: invokestatic  #99                 // Method clojure/lang/RT.keyword:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Keyword;
+       130: aastore
+       131: dup
+       132: bipush        7
+       134: ldc           #132                // String com/github/mrzo0m/hello.clj
+       136: aastore
+       137: invokestatic  #136                // Method clojure/lang/RT.map:([Ljava/lang/Object;)Lclojure/lang/IPersistentMap;
+       140: checkcast     #91                 // class clojure/lang/AFn
+       143: putstatic     #59                 // Field const__11:Lclojure/lang/AFn;
+       146: return
+
+  public static {};
+    descriptor: ()V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=1, locals=0, args_size=0
+         0: invokestatic  #139                // Method __init0:()V
+         3: ldc           #141                // String com.github.mrzo0m.hello__init
+         5: invokestatic  #145                // Method clojure/lang/RT.classForName:(Ljava/lang/String;)Ljava/lang/Class;
+         8: invokevirtual #151                // Method java/lang/Class.getClassLoader:()Ljava/lang/ClassLoader;
+        11: invokestatic  #157                // Method clojure/lang/Compiler.pushNSandLoader:(Ljava/lang/ClassLoader;)V
+        14: invokestatic  #159                // Method load:()V
+        17: invokestatic  #162                // Method clojure/lang/Var.popThreadBindings:()V
+        20: goto          27
+        23: invokestatic  #162                // Method clojure/lang/Var.popThreadBindings:()V
+        26: athrow
+        27: return
+      Exception table:
+         from    to  target type
+            14    17    23   any
+}

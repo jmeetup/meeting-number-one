@@ -20,7 +20,13 @@
 
   <dependencies>
   </dependencies>
-
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/mrzo0m/jmeetup/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
