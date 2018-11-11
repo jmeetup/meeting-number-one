@@ -1,4 +1,5 @@
-(ns com.github.mrzo0m.hello)
+(ns com.github.mrzo0m.hello
+  (:gen-class))
 
-(defn main [args]
-  (println "Hello World!"))
+(defn -main [& args]
+  (println "Hello World"))

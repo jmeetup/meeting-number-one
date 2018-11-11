@@ -1,7 +1,7 @@
-1.8.0_181
-Classfile /C:/Users/16678596/IdeaProjects/jmeetup/clojure-bytecode/target/classes/com/github/mrzo0m/hello$loading__6434__auto____279.class
-  Last modified 09.11.2018; size 1532 bytes
-  MD5 checksum 0c32512a22f3a0efd853a30fc1d2b0fb
+1.8.0_161
+Classfile /Users/olegbursinov/Java/Projects/jmeetup/clojure-bytecode/target/classes/com/github/mrzo0m/hello$loading__6434__auto____279.class
+  Last modified 11.11.2018; size 1534 bytes
+  MD5 checksum 866fb3c06b09fbb630170f5fc87fb5d2
   Compiled from "hello.clj"
 public final class com.github.mrzo0m.hello$loading__6434__auto____279 extends clojure.lang.AFunction
   minor version: 0
@@ -134,36 +134,38 @@ Constant pool:
         23: invokestatic  #35                 // Method clojure/lang/RT.mapUniqueKeys:([Ljava/lang/Object;)Lclojure/lang/IPersistentMap;
         26: checkcast     #37                 // class clojure/lang/Associative
         29: invokestatic  #43                 // Method clojure/lang/Var.pushThreadBindings:(Lclojure/lang/Associative;)V
-        32: getstatic     #46                 // Field const__0:Lclojure/lang/Var;
-        35: invokevirtual #49                 // Method clojure/lang/Var.getRawRoot:()Ljava/lang/Object;
-        38: checkcast     #51                 // class clojure/lang/IFn
-        41: getstatic     #55                 // Field const__1:Lclojure/lang/AFn;
-        44: invokeinterface #58,  2           // InterfaceMethod clojure/lang/IFn.invoke:(Ljava/lang/Object;)Ljava/lang/Object;
-        49: astore_1
-        50: invokestatic  #61                 // Method clojure/lang/Var.popThreadBindings:()V
-        53: goto          62
-        56: astore_2
-        57: invokestatic  #61                 // Method clojure/lang/Var.popThreadBindings:()V
-        60: aload_2
-        61: athrow
-        62: aload_1
-        63: areturn
+        32: aconst_null
+        33: pop
+        34: getstatic     #46                 // Field const__0:Lclojure/lang/Var;
+        37: invokevirtual #49                 // Method clojure/lang/Var.getRawRoot:()Ljava/lang/Object;
+        40: checkcast     #51                 // class clojure/lang/IFn
+        43: getstatic     #55                 // Field const__1:Lclojure/lang/AFn;
+        46: invokeinterface #58,  2           // InterfaceMethod clojure/lang/IFn.invoke:(Ljava/lang/Object;)Ljava/lang/Object;
+        51: astore_1
+        52: invokestatic  #61                 // Method clojure/lang/Var.popThreadBindings:()V
+        55: goto          64
+        58: astore_2
+        59: invokestatic  #61                 // Method clojure/lang/Var.popThreadBindings:()V
+        62: aload_2
+        63: athrow
+        64: aload_1
+        65: areturn
       Exception table:
          from    to  target type
-            32    50    56   any
+            32    52    58   any
       LocalVariableTable:
         Start  Length  Slot  Name   Signature
-            0      63     0  this   Ljava/lang/Object;
+            0      65     0  this   Ljava/lang/Object;
       LineNumberTable:
         line 1: 0
         line 1: 6
         line 1: 13
         line 1: 19
         line 1: 29
-        line 1: 38
-        line 1: 44
-        line 1: 50
-        line 1: 57
+        line 1: 40
+        line 1: 46
+        line 1: 52
+        line 1: 59
 
   public static {};
     descriptor: ()V
@@ -194,5 +196,5 @@ SourceDebugExtension:
   + 1 hello.clj
   com/github/mrzo0m/hello.clj
   *L
-  1#1,1:1
+  1#1,2:1
   *E

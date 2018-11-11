@@ -1,7 +1,7 @@
-1.8.0_181
-Classfile /C:/Users/16678596/IdeaProjects/jmeetup/clojure-bytecode/target/classes/com/github/mrzo0m/hello$fn__281.class
-  Last modified 09.11.2018; size 1361 bytes
-  MD5 checksum bb3079506d22d874babf9486c6eb403d
+1.8.0_161
+Classfile /Users/olegbursinov/Java/Projects/jmeetup/clojure-bytecode/target/classes/com/github/mrzo0m/hello$fn__281.class
+  Last modified 11.11.2018; size 1361 bytes
+  MD5 checksum aea43433cb8350938e6b3fa3ce10ac22
   Compiled from "hello.clj"
 public final class com.github.mrzo0m.hello$fn__281 extends clojure.lang.AFunction
   minor version: 0
@@ -194,5 +194,5 @@ SourceDebugExtension:
   + 1 hello.clj
   com/github/mrzo0m/hello.clj
   *L
-  1#1,1:1
+  1#1,2:1
   *E
