@@ -1,0 +1,321 @@
+1.8.0_161
+  Last modified 13.11.2018; size 1520 bytes
+  MD5 checksum 2ae2bb1ac5569c2d615a682bd25926c5
+  Compiled from "Hobbits.java"
+public final class com.github.mrzo0m.Hobbits extends java.lang.Enum<com.github.mrzo0m.Hobbits>
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_FINAL, ACC_SUPER, ACC_ENUM
+Constant pool:
+   #1 = Fieldref           #4.#63         // com/github/mrzo0m/Hobbits.$VALUES:[Lcom/github/mrzo0m/Hobbits;
+   #2 = Methodref          #64.#65        // "[Lcom/github/mrzo0m/Hobbits;".clone:()Ljava/lang/Object;
+   #3 = Class              #44            // "[Lcom/github/mrzo0m/Hobbits;"
+   #4 = Class              #66            // com/github/mrzo0m/Hobbits
+   #5 = Methodref          #30.#67        // java/lang/Enum.valueOf:(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
+   #6 = Methodref          #30.#68        // java/lang/Enum."<init>":(Ljava/lang/String;I)V
+   #7 = String             #31            // BILBA_LABINGI
+   #8 = Methodref          #4.#68         // com/github/mrzo0m/Hobbits."<init>":(Ljava/lang/String;I)V
+   #9 = Fieldref           #4.#69         // com/github/mrzo0m/Hobbits.BILBA_LABINGI:Lcom/github/mrzo0m/Hobbits;
+  #10 = String             #33            // BILBO_BAGGINS
+  #11 = Fieldref           #4.#70         // com/github/mrzo0m/Hobbits.BILBO_BAGGINS:Lcom/github/mrzo0m/Hobbits;
+  #12 = String             #34            // BILBO_GARDNER
+  #13 = Fieldref           #4.#71         // com/github/mrzo0m/Hobbits.BILBO_GARDNER:Lcom/github/mrzo0m/Hobbits;
+  #14 = String             #35            // BILL_BUTCHER
+  #15 = Fieldref           #4.#72         // com/github/mrzo0m/Hobbits.BILL_BUTCHER:Lcom/github/mrzo0m/Hobbits;
+  #16 = String             #36            // BINGO_BAGGINS
+  #17 = Fieldref           #4.#73         // com/github/mrzo0m/Hobbits.BINGO_BAGGINS:Lcom/github/mrzo0m/Hobbits;
+  #18 = String             #37            // BLANCO
+  #19 = Fieldref           #4.#74         // com/github/mrzo0m/Hobbits.BLANCO:Lcom/github/mrzo0m/Hobbits;
+  #20 = String             #38            // BLANCO_BRACEGIRDLE
+  #21 = Fieldref           #4.#75         // com/github/mrzo0m/Hobbits.BLANCO_BRACEGIRDLE:Lcom/github/mrzo0m/Hobbits;
+  #22 = String             #39            // BOB
+  #23 = Fieldref           #4.#76         // com/github/mrzo0m/Hobbits.BOB:Lcom/github/mrzo0m/Hobbits;
+  #24 = String             #40            // BODO_PROUDFOOT
+  #25 = Fieldref           #4.#77         // com/github/mrzo0m/Hobbits.BODO_PROUDFOOT:Lcom/github/mrzo0m/Hobbits;
+  #26 = String             #41            // FRODO_BAGGINS
+  #27 = Fieldref           #4.#78         // com/github/mrzo0m/Hobbits.FRODO_BAGGINS:Lcom/github/mrzo0m/Hobbits;
+  #28 = String             #42            // FRODO_GARDNER
+  #29 = Fieldref           #4.#79         // com/github/mrzo0m/Hobbits.FRODO_GARDNER:Lcom/github/mrzo0m/Hobbits;
+  #30 = Class              #80            // java/lang/Enum
+  #31 = Utf8               BILBA_LABINGI
+  #32 = Utf8               Lcom/github/mrzo0m/Hobbits;
+  #33 = Utf8               BILBO_BAGGINS
+  #34 = Utf8               BILBO_GARDNER
+  #35 = Utf8               BILL_BUTCHER
+  #36 = Utf8               BINGO_BAGGINS
+  #37 = Utf8               BLANCO
+  #38 = Utf8               BLANCO_BRACEGIRDLE
+  #39 = Utf8               BOB
+  #40 = Utf8               BODO_PROUDFOOT
+  #41 = Utf8               FRODO_BAGGINS
+  #42 = Utf8               FRODO_GARDNER
+  #43 = Utf8               $VALUES
+  #44 = Utf8               [Lcom/github/mrzo0m/Hobbits;
+  #45 = Utf8               values
+  #46 = Utf8               ()[Lcom/github/mrzo0m/Hobbits;
+  #47 = Utf8               Code
+  #48 = Utf8               LineNumberTable
+  #49 = Utf8               valueOf
+  #50 = Utf8               (Ljava/lang/String;)Lcom/github/mrzo0m/Hobbits;
+  #51 = Utf8               LocalVariableTable
+  #52 = Utf8               name
+  #53 = Utf8               Ljava/lang/String;
+  #54 = Utf8               <init>
+  #55 = Utf8               (Ljava/lang/String;I)V
+  #56 = Utf8               this
+  #57 = Utf8               Signature
+  #58 = Utf8               ()V
+  #59 = Utf8               <clinit>
+  #60 = Utf8               Ljava/lang/Enum<Lcom/github/mrzo0m/Hobbits;>;
+  #61 = Utf8               SourceFile
+  #62 = Utf8               Hobbits.java
+  #63 = NameAndType        #43:#44        // $VALUES:[Lcom/github/mrzo0m/Hobbits;
+  #64 = Class              #44            // "[Lcom/github/mrzo0m/Hobbits;"
+  #65 = NameAndType        #81:#82        // clone:()Ljava/lang/Object;
+  #66 = Utf8               com/github/mrzo0m/Hobbits
+  #67 = NameAndType        #49:#83        // valueOf:(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
+  #68 = NameAndType        #54:#55        // "<init>":(Ljava/lang/String;I)V
+  #69 = NameAndType        #31:#32        // BILBA_LABINGI:Lcom/github/mrzo0m/Hobbits;
+  #70 = NameAndType        #33:#32        // BILBO_BAGGINS:Lcom/github/mrzo0m/Hobbits;
+  #71 = NameAndType        #34:#32        // BILBO_GARDNER:Lcom/github/mrzo0m/Hobbits;
+  #72 = NameAndType        #35:#32        // BILL_BUTCHER:Lcom/github/mrzo0m/Hobbits;
+  #73 = NameAndType        #36:#32        // BINGO_BAGGINS:Lcom/github/mrzo0m/Hobbits;
+  #74 = NameAndType        #37:#32        // BLANCO:Lcom/github/mrzo0m/Hobbits;
+  #75 = NameAndType        #38:#32        // BLANCO_BRACEGIRDLE:Lcom/github/mrzo0m/Hobbits;
+  #76 = NameAndType        #39:#32        // BOB:Lcom/github/mrzo0m/Hobbits;
+  #77 = NameAndType        #40:#32        // BODO_PROUDFOOT:Lcom/github/mrzo0m/Hobbits;
+  #78 = NameAndType        #41:#32        // FRODO_BAGGINS:Lcom/github/mrzo0m/Hobbits;
+  #79 = NameAndType        #42:#32        // FRODO_GARDNER:Lcom/github/mrzo0m/Hobbits;
+  #80 = Utf8               java/lang/Enum
+  #81 = Utf8               clone
+  #82 = Utf8               ()Ljava/lang/Object;
+  #83 = Utf8               (Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
+{
+  public static final com.github.mrzo0m.Hobbits BILBA_LABINGI;
+    descriptor: Lcom/github/mrzo0m/Hobbits;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL, ACC_ENUM
+
+  public static final com.github.mrzo0m.Hobbits BILBO_BAGGINS;
+    descriptor: Lcom/github/mrzo0m/Hobbits;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL, ACC_ENUM
+
+  public static final com.github.mrzo0m.Hobbits BILBO_GARDNER;
+    descriptor: Lcom/github/mrzo0m/Hobbits;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL, ACC_ENUM
+
+  public static final com.github.mrzo0m.Hobbits BILL_BUTCHER;
+    descriptor: Lcom/github/mrzo0m/Hobbits;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL, ACC_ENUM
+
+  public static final com.github.mrzo0m.Hobbits BINGO_BAGGINS;
+    descriptor: Lcom/github/mrzo0m/Hobbits;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL, ACC_ENUM
+
+  public static final com.github.mrzo0m.Hobbits BLANCO;
+    descriptor: Lcom/github/mrzo0m/Hobbits;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL, ACC_ENUM
+
+  public static final com.github.mrzo0m.Hobbits BLANCO_BRACEGIRDLE;
+    descriptor: Lcom/github/mrzo0m/Hobbits;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL, ACC_ENUM
+
+  public static final com.github.mrzo0m.Hobbits BOB;
+    descriptor: Lcom/github/mrzo0m/Hobbits;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL, ACC_ENUM
+
+  public static final com.github.mrzo0m.Hobbits BODO_PROUDFOOT;
+    descriptor: Lcom/github/mrzo0m/Hobbits;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL, ACC_ENUM
+
+  public static final com.github.mrzo0m.Hobbits FRODO_BAGGINS;
+    descriptor: Lcom/github/mrzo0m/Hobbits;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL, ACC_ENUM
+
+  public static final com.github.mrzo0m.Hobbits FRODO_GARDNER;
+    descriptor: Lcom/github/mrzo0m/Hobbits;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL, ACC_ENUM
+
+  private static final com.github.mrzo0m.Hobbits[] $VALUES;
+    descriptor: [Lcom/github/mrzo0m/Hobbits;
+    flags: ACC_PRIVATE, ACC_STATIC, ACC_FINAL, ACC_SYNTHETIC
+
+  public static com.github.mrzo0m.Hobbits[] values();
+    descriptor: ()[Lcom/github/mrzo0m/Hobbits;
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=1, locals=0, args_size=0
+         0: getstatic     #1                  // Field $VALUES:[Lcom/github/mrzo0m/Hobbits;
+         3: invokevirtual #2                  // Method "[Lcom/github/mrzo0m/Hobbits;".clone:()Ljava/lang/Object;
+         6: checkcast     #3                  // class "[Lcom/github/mrzo0m/Hobbits;"
+         9: areturn
+      LineNumberTable:
+        line 3: 0
+
+  public static com.github.mrzo0m.Hobbits valueOf(java.lang.String);
+    descriptor: (Ljava/lang/String;)Lcom/github/mrzo0m/Hobbits;
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: ldc           #4                  // class com/github/mrzo0m/Hobbits
+         2: aload_0
+         3: invokestatic  #5                  // Method java/lang/Enum.valueOf:(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
+         6: checkcast     #4                  // class com/github/mrzo0m/Hobbits
+         9: areturn
+      LineNumberTable:
+        line 3: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      10     0  name   Ljava/lang/String;
+
+  private com.github.mrzo0m.Hobbits();
+    descriptor: (Ljava/lang/String;I)V
+    flags: ACC_PRIVATE
+    Code:
+      stack=3, locals=3, args_size=3
+         0: aload_0
+         1: aload_1
+         2: iload_2
+         3: invokespecial #6                  // Method java/lang/Enum."<init>":(Ljava/lang/String;I)V
+         6: return
+      LineNumberTable:
+        line 3: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       7     0  this   Lcom/github/mrzo0m/Hobbits;
+    Signature: #58                          // ()V
+
+  static {};
+    descriptor: ()V
+    flags: ACC_STATIC
+    Code:
+      stack=4, locals=0, args_size=0
+         0: new           #4                  // class com/github/mrzo0m/Hobbits
+         3: dup
+         4: ldc           #7                  // String BILBA_LABINGI
+         6: iconst_0
+         7: invokespecial #8                  // Method "<init>":(Ljava/lang/String;I)V
+        10: putstatic     #9                  // Field BILBA_LABINGI:Lcom/github/mrzo0m/Hobbits;
+        13: new           #4                  // class com/github/mrzo0m/Hobbits
+        16: dup
+        17: ldc           #10                 // String BILBO_BAGGINS
+        19: iconst_1
+        20: invokespecial #8                  // Method "<init>":(Ljava/lang/String;I)V
+        23: putstatic     #11                 // Field BILBO_BAGGINS:Lcom/github/mrzo0m/Hobbits;
+        26: new           #4                  // class com/github/mrzo0m/Hobbits
+        29: dup
+        30: ldc           #12                 // String BILBO_GARDNER
+        32: iconst_2
+        33: invokespecial #8                  // Method "<init>":(Ljava/lang/String;I)V
+        36: putstatic     #13                 // Field BILBO_GARDNER:Lcom/github/mrzo0m/Hobbits;
+        39: new           #4                  // class com/github/mrzo0m/Hobbits
+        42: dup
+        43: ldc           #14                 // String BILL_BUTCHER
+        45: iconst_3
+        46: invokespecial #8                  // Method "<init>":(Ljava/lang/String;I)V
+        49: putstatic     #15                 // Field BILL_BUTCHER:Lcom/github/mrzo0m/Hobbits;
+        52: new           #4                  // class com/github/mrzo0m/Hobbits
+        55: dup
+        56: ldc           #16                 // String BINGO_BAGGINS
+        58: iconst_4
+        59: invokespecial #8                  // Method "<init>":(Ljava/lang/String;I)V
+        62: putstatic     #17                 // Field BINGO_BAGGINS:Lcom/github/mrzo0m/Hobbits;
+        65: new           #4                  // class com/github/mrzo0m/Hobbits
+        68: dup
+        69: ldc           #18                 // String BLANCO
+        71: iconst_5
+        72: invokespecial #8                  // Method "<init>":(Ljava/lang/String;I)V
+        75: putstatic     #19                 // Field BLANCO:Lcom/github/mrzo0m/Hobbits;
+        78: new           #4                  // class com/github/mrzo0m/Hobbits
+        81: dup
+        82: ldc           #20                 // String BLANCO_BRACEGIRDLE
+        84: bipush        6
+        86: invokespecial #8                  // Method "<init>":(Ljava/lang/String;I)V
+        89: putstatic     #21                 // Field BLANCO_BRACEGIRDLE:Lcom/github/mrzo0m/Hobbits;
+        92: new           #4                  // class com/github/mrzo0m/Hobbits
+        95: dup
+        96: ldc           #22                 // String BOB
+        98: bipush        7
+       100: invokespecial #8                  // Method "<init>":(Ljava/lang/String;I)V
+       103: putstatic     #23                 // Field BOB:Lcom/github/mrzo0m/Hobbits;
+       106: new           #4                  // class com/github/mrzo0m/Hobbits
+       109: dup
+       110: ldc           #24                 // String BODO_PROUDFOOT
+       112: bipush        8
+       114: invokespecial #8                  // Method "<init>":(Ljava/lang/String;I)V
+       117: putstatic     #25                 // Field BODO_PROUDFOOT:Lcom/github/mrzo0m/Hobbits;
+       120: new           #4                  // class com/github/mrzo0m/Hobbits
+       123: dup
+       124: ldc           #26                 // String FRODO_BAGGINS
+       126: bipush        9
+       128: invokespecial #8                  // Method "<init>":(Ljava/lang/String;I)V
+       131: putstatic     #27                 // Field FRODO_BAGGINS:Lcom/github/mrzo0m/Hobbits;
+       134: new           #4                  // class com/github/mrzo0m/Hobbits
+       137: dup
+       138: ldc           #28                 // String FRODO_GARDNER
+       140: bipush        10
+       142: invokespecial #8                  // Method "<init>":(Ljava/lang/String;I)V
+       145: putstatic     #29                 // Field FRODO_GARDNER:Lcom/github/mrzo0m/Hobbits;
+       148: bipush        11
+       150: anewarray     #4                  // class com/github/mrzo0m/Hobbits
+       153: dup
+       154: iconst_0
+       155: getstatic     #9                  // Field BILBA_LABINGI:Lcom/github/mrzo0m/Hobbits;
+       158: aastore
+       159: dup
+       160: iconst_1
+       161: getstatic     #11                 // Field BILBO_BAGGINS:Lcom/github/mrzo0m/Hobbits;
+       164: aastore
+       165: dup
+       166: iconst_2
+       167: getstatic     #13                 // Field BILBO_GARDNER:Lcom/github/mrzo0m/Hobbits;
+       170: aastore
+       171: dup
+       172: iconst_3
+       173: getstatic     #15                 // Field BILL_BUTCHER:Lcom/github/mrzo0m/Hobbits;
+       176: aastore
+       177: dup
+       178: iconst_4
+       179: getstatic     #17                 // Field BINGO_BAGGINS:Lcom/github/mrzo0m/Hobbits;
+       182: aastore
+       183: dup
+       184: iconst_5
+       185: getstatic     #19                 // Field BLANCO:Lcom/github/mrzo0m/Hobbits;
+       188: aastore
+       189: dup
+       190: bipush        6
+       192: getstatic     #21                 // Field BLANCO_BRACEGIRDLE:Lcom/github/mrzo0m/Hobbits;
+       195: aastore
+       196: dup
+       197: bipush        7
+       199: getstatic     #23                 // Field BOB:Lcom/github/mrzo0m/Hobbits;
+       202: aastore
+       203: dup
+       204: bipush        8
+       206: getstatic     #25                 // Field BODO_PROUDFOOT:Lcom/github/mrzo0m/Hobbits;
+       209: aastore
+       210: dup
+       211: bipush        9
+       213: getstatic     #27                 // Field FRODO_BAGGINS:Lcom/github/mrzo0m/Hobbits;
+       216: aastore
+       217: dup
+       218: bipush        10
+       220: getstatic     #29                 // Field FRODO_GARDNER:Lcom/github/mrzo0m/Hobbits;
+       223: aastore
+       224: putstatic     #1                  // Field $VALUES:[Lcom/github/mrzo0m/Hobbits;
+       227: return
+      LineNumberTable:
+        line 5: 0
+        line 7: 13
+        line 9: 26
+        line 11: 39
+        line 13: 52
+        line 15: 65
+        line 17: 78
+        line 19: 92
+        line 21: 106
+        line 23: 120
+        line 25: 134
+        line 3: 148
+}
+Signature: #60                          // Ljava/lang/Enum<Lcom/github/mrzo0m/Hobbits;>;
+SourceFile: "Hobbits.java"
